@@ -9,6 +9,10 @@ header {
   justify-content: center;
 }
 
+/* Footer */
+footer {
+  color: dimgray;
+}
 
 /* Gallery Styling */
 .gallery {
@@ -26,6 +30,14 @@ figure {
   width: 20em;
 }
 
+.lg-backdrop {
+    background: rgba(0,0,0,.7);
+}
+
+.lg-image {
+    box-shadow: 0 0 30px black;
+    border-radius: 10px;
+}
 
 /********************
 MEDIA QUERIES
@@ -35,16 +47,8 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: #2c3e50;
+       background: #031316;
   }
-    
-    .gallery {
-        flex-direction: column;
-    }
-    
-    figure{
-        display: block;
-    }
   
 }
 
@@ -53,7 +57,7 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: #2c3e50;
+       background: #031316;
   }
 
 }
@@ -63,7 +67,7 @@ MEDIA QUERIES
   
   /* Diagnostic Styling. */
   body {
-       background: #2c3e50;
+       background: #031316;
   }
 
 }

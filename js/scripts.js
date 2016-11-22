@@ -12,3 +12,9 @@ var img2 = '/img/fullsize/3.jpg';
 
 // Show Images
 $('header img').attr('src', eval('img' + numRand) );
+
+// ACTIVATE GALLERY
+
+$('figure').lightGallery({
+    selector: 'a'
+});
