@@ -13,8 +13,8 @@ header {
 /* Gallery Styling */
 .gallery {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
 }
 
 figure {
@@ -35,8 +35,16 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: red;
+       background: #2c3e50;
   }
+    
+    .gallery {
+        flex-direction: column;
+    }
+    
+    figure{
+        display: block;
+    }
   
 }
 
@@ -45,7 +53,7 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: green;
+       background: #2c3e50;
   }
 
 }
@@ -55,7 +63,7 @@ MEDIA QUERIES
   
   /* Diagnostic Styling. */
   body {
-       background: blue;
+       background: #2c3e50;
   }
 
 }

@@ -6,9 +6,9 @@ var numRand = Math.floor( Math.random() * maxRand );
 //console.log(numRand);
 
 // Store images
-var img0 = 'http://unsplash.it/200/200';
-var img1 = 'http://unsplash.it/300/300';
-var img2 = 'http://unsplash.it/400/400';
+var img0 = '/img/fullsize/1.jpg';
+var img1 = '/img/fullsize/2.jpg';
+var img2 = '/img/fullsize/3.jpg';
 
 // Show Images
 $('header img').attr('src', eval('img' + numRand) );
