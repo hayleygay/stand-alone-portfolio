@@ -18,3 +18,9 @@ $('header img').attr('src', eval('img' + numRand) );
 $('figure').lightGallery({
     selector: 'a'
 });
+
+// THUMBNAILS
+
+$('#aniimated-thumbnials').lightGallery({
+    thumbnail:true
+}); 
