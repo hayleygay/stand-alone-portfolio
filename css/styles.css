@@ -4,15 +4,24 @@ YOUR STYLES
 
 
 /* Header */
-header {
+header .head {
   display: flex;
   justify-content: center;
-  margin: 0 50px 0 50px;
   text-transform: uppercase;
   color: #F9BF3B;
   font-family: 'Oswald', sans-serif;
   font-size: 2.5em;
-  letter-spacing: .15em;
+  letter-spacing: .1em;
+  width: 95%;
+  margin: auto;
+}
+
+.name {
+    font-family: "Open Sans", sans-serif;
+    color: dimgray;
+    font-size: 0.6em;
+    font-weight: 400;
+    margin-top: 40px;
 }
 
 /* Footer */
@@ -34,6 +43,44 @@ figure {
   box-sizing: border-box;
   justify-content: space-between;
   overflow: hidden;
+}
+
+h1 {
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    width: 95%;
+    color: dimgray;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.graphic {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 95%;
+}
+
+
+.drawing {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 95%;
+}
+
+.paint {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 95%;
+}
+
+
+img {
+    border: solid 1px #031316;
 }
 
 .lg-backdrop {
